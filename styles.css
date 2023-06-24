@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background: rgb(115, 76, 221);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -8%;
+}
+
+p {
+    color: rgb(189, 186, 186);
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+.conteudo {
+    width: 400px;
+    height: 560px;
+    background: white;
+    border-radius: 30px;
+}
+
+.planos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+}
+
+h2, h3, p, a {
+    margin-top: 10%;
+}
+
+h2 {
+    color: rgb(221, 221, 63);
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(115, 76, 221);
+    font-size: 40px;
+}
+
+a {
+    color: rgb(115, 76, 221);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+a:hover {
+    width: 170px;
+    height: 50px;
+    background: rgb(115, 76, 221);
+    color: white;
+    padding-top: 10px;
+    padding-left: 37px;
+}
+
+.texto-descricao {
+    margin-left: 30px;
+}
+
+.texto-topo-mais-popular h3{
+    font-size: 25px;
+    margin-top: -24px;
+    margin-bottom: 30px;
+    background: rgb(238, 204, 141);
+    padding: 10px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin-top: 1%;
+    }
+
+    .container1 {
+        margin-top: 15%;
+    }
+
+    .conteudo {
+        width: 130px;
+    }
+
+    .planos {
+        margin-top: 70px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h1, h2, h3 {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+    a:hover {
+        width: 100px;
+        height: 40px;
+        white-space: nowrap;
+        padding-left: 9px;
+    }
+
+    .texto-topo-mais-popular h3{
+        font-size: 15px;
+        white-space: nowrap;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        width: 130px;
+        margin-top: -70px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .conteudo {
+        width: 180px;
+    }
+
+    p {
+        font-size: 17px;
+        margin-left: 50px;
+    }
+
+    h1, h2, h3 {
+        font-size: 20px;
+    }
+
+    a {
+        margin-top: 30%;
+    }
+
+    a:hover {
+        width: 130px;
+        white-space: nowrap;
+        padding-left: 15px;
+    }
+
+    .texto1-container {
+        margin-left: 10px;
+    }
+
+    .texto-topo-mais-popular h3 {
+        font-size: 20px;
+        width: 180px;
+        margin-top: -6%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding-left: 20px;
+        margin-top: -20%;
+    }
+
+    .planos {
+        margin-top: 19%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .conteudo {
+        width: 240px;
+    }
+
+    .texto-topo-mais-popular h3 {
+        width: 240px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding-left: 35px;
+    }
+
+    a {
+        margin-top: 20%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 800px) {
+    .conteudo {
+        width: 240px;
+    }
+
+    .texto-topo-mais-popular h3 {
+        width: 240px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding-left: 35px;
+    }
+
+    a {
+        margin-top: 20%;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+    .conteudo {
+        width: 290px;
+    }
+
+    .texto-topo-mais-popular h3 {
+        width: 290px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding-left: 58px;
+    }
+
+    a {
+        margin-top: 20%;
+    }
+}
+
+@media (min-width: 3840px) {
+    .conteudo {
+        width: 800px;
+        height: 1200px;
+    }
+
+    p {
+        font-size: 50px;
+    }
+
+    h1, h2, h3, a {
+        font-size: 70px;
+    }
+
+    a:hover {
+        background: rgb(115, 76, 221);
+        width: 400px;
+        height: 130px;
+        padding-left: 27px;
+    }
+
+    .texto-topo-mais-popular h3 {
+        font-size: 70px;
+        margin-top: -9%;
+        width: 800px;
+        padding-left: 160px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+}
